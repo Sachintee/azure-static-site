@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azure Web App Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Azure Web App 🚀</h1>
+        <p>This web application is deployed using GitHub Actions (CI/CD).</p>
+
+        <button onclick="showMessage()">Click Me</button>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+            "Deployment Successful! 🎉";
+        }
+    </script>
+
+</body>
+</html>
